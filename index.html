@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <meta http‐equiv="refresh" content="20;URL=./2PantillaBasica.htm" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divisones Sem&aacute;ticas</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="css/estiloBasico.css">
+</head>
+<body>
+  <div id="agrupar">
+
+  <header id="cabecera">
+      <h1>Practica 8</h1>
+  </header>
+
+  <nav id="menu">
+    <ul>
+    <li><a href="https://juanjesusfernandezseveriano.github.io/pactica1/">practica 1</a></li>
+    <li><a href="https://juanjesusfernandezseveriano.github.io/Practica2/">practica 2</a></li>
+    <li><a href="https://juanjesusfernandezseveriano.github.io/practica3/">practica 3</a></li>
+    <li><a href="https://juanjesusfernandezseveriano.github.io/practica5/">practica 5</a></li>
+    </ul>
+  </nav>
+
+  <section id="seccion">
+      <article><!--Primer articulo-->
+        <header>
+              <hgroup>
+                  <h1 style="text-align: center;">Mi CV</h1>
+                  <img src="img/yo.jpg" width="200" height="350">
+                  <h2>Dirección:</h2>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d916.8484813304237!2d-96.92696161688374!3d18.89343542344609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1676950512244!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </hgroup>
+              <time datetime="2011-12-10" pubdate>
+                    publicado 10-12-2011
+              </time>
+        </header>
+        <h3 style="text-align: center;">Datos</h3>
+        <h1>Datos personales:</h1>
+        <ul style="list-style-type:circle;">
+          <li style="color: rgb(134, 103, 165);"><h3>Nombre: Juan Jesús Fernández Severiano</h3></li>
+          <li style="color: rgb(231, 93, 38);"><h3>Lugar de nacimiento: Cordoba Ver.</h3></li>
+          <li style="color: rgb(57, 146, 168);"><h3>Fecha de nacimiento: 12/Noviembre/2002</h3></li>
+        </ul>
+        <h1>Formación academica:</h1>
+        <ul style="list-style-type:circle;">
+          <li style="color: rgb(160, 75, 245);"><h3>2014-2017 Secundaria General Numero 3</h3></li>
+          <li style="color: rgb(165, 118, 18);"><h3>2017-2020 Cbtis 47</h3></li>
+          <li style="color: rgb(245, 25, 25);"><h3>2020-2022 Tecnologico de Orizaba</h3></li>
+        </ul>
+        <h1>Experiencia laboral:</h1>
+        <ul style="list-style-type:circle;">
+          <li style="color: rgb(160, 75, 245);"><h3>2022-2023 Ingeniero Intel corp.</h3></li>
+          <li style="color: rgb(245, 25, 25);"><h3>2020-2022 Enginer Microsoft</h3></li>
+        </ul>
+          <footer>
+              <p>comentarios (0)</p>
+          </footer>
+      </article><!-- Fin Primer articulo-->
+
+      <article><!-- Segundo articulo-->
+          <header>
+            <hgroup>
+                <h1 style="text-align: center;">Mis materias preferidas</h1>
+            </hgroup>
+            <time datetime="2011-12-15" pubdate>
+                publicado 15-12-2011
+            </time>
+         </header>
+         <ul style="list-style-type:circle;">
+            <li style="color: rgb(202, 156, 248);"><h3> Programacion orientada a objetos</h3></li>
+            <li style="color: rgb(245, 151, 114);"><h3>Estructura de datos</h3></li>
+            <li style="color: rgb(3, 195, 243);"><h3>Programacion web</h3></li>
+            <li style="color: rgb(247, 194, 82);"><h3>Ingles</h3></li>
+            <li style="color: rgb(255, 74, 74);"><h3>Matematicas</h3></li>
+        </ul>
+         <footer>
+            <p>comentarios (0)</p>
+          </footer>
+    </article> <!-- Fin Segundo articulo-->
+
+</section> <!--Fin de section seccion-->
+
+  <aside id="columna"> <!-- aside -->
+      <blockquote>Contactos</blockquote>
+      <a href="https://www.facebook.com/">
+       <figure>
+         <a href="https://www.facebook.com/Bubeitor.fernandez?mibextid=ZbWKwL"><img src="img/facebook.jpg" alt="facebook" ></a>
+       </figure>
+     </a>
+
+     <a href="https://www.instagram.com/">
+        <figure>
+          <a href="https://instagram.com/buba.lool?igshid=NTE5MzUyOTU="><img src="img/instagram.jpg" alt="instagram"></a>
+        </figure>
+      </a>
+  </aside> <!-- Fin aside -->
+
+  <footer id="pie">
+      Derechos Reservados &copy; 2010-2011
+      <address>
+          <a href="http://www.itorizaba.edu.mx">ITO</a>
+      </address>
+  </footer>
+
+</div> <!--fin div agrupar-->
+
+</body>
+</html>
